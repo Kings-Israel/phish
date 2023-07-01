@@ -121,7 +121,7 @@
   function getIPAddessDetails($ip) {
     $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}/json"));
     if (!empty($details->city)) {
-      return $details;
+      return $details->city;
     } else {
       return 'Not Found';
     }
