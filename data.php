@@ -71,7 +71,7 @@
                 </div>
                 <?php foreach ($user_data as $data) { ?>
                   <p class="six columns" style="margin-left: 10px;"><?php echo $data['Browser'] ?></p>
-                  <p class="four columns" style="margin-left: 10px;"><?php echo $data['IP Address']->city ?></p>
+                  <p class="four columns" style="margin-left: 10px;"><?php echo $data['IP Address'] ?></p>
                   <p class="six columns" style="margin-left: 10px;"><?php echo $data['Operating System'] ?></p>
                 <?php } ?>
               </div>
